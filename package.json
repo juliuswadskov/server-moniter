@@ -1,0 +1,25 @@
+{
+  "name": "server-moniter",
+  "version": "1.0.0",
+  "description": "This lets you see live data on your vps/dedicated-server",
+  "workspaces": [
+    "client"
+  ],
+  "scripts": {
+    "dev:client": "nodemon client/index.js",
+    "dev:server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raag2005/server-moniter.git"
+  },
+  "author": "Raag2005",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raag2005/server-moniter/issues"
+  },
+  "homepage": "https://github.com/raag2005/server-moniter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
